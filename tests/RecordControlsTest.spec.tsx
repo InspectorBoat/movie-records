@@ -1,7 +1,6 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { RecordControls } from "../src/components/RecordControls";
-import type { Watch } from "../src/interfaces/watch";
 import type { Movie } from "../src/interfaces/movie";
 
 describe("RecordControlsTest", () => {
